@@ -1,0 +1,28 @@
+/* Просили задать размеры инпутов, получайте */
+.noContacts input {
+    height: 20px;
+    width: 500px;
+}
+
+/* ДЗ 4 задание 5 делаем первую букву любого слова вводимого в инпуты,
+кроме поля e-mail upper-case, даже при вводе маленькими*/
+.noContacts input:valid {
+    text-transform: capitalize;
+}
+
+/*ДЗ 4 задание 4 меняем стиль поля email при начале ввода */
+.noContacts input#email:valid {
+    background-color: black;
+    color: azure;
+    text-transform: none;
+}
+
+/* Выравниваем размер textarea относительно инпутовов*/
+.noContacts textarea {
+    width: 500px;
+}
+
+/* Смещаем кнопку submit относительно формы, чтобы она по середине была */
+.submit {
+    text-align: center;
+}
