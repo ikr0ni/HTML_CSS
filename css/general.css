@@ -9,7 +9,76 @@
 }
 
 .header {
-    width: 1920px;
     height: 725px;
-    background-image: url("img\2.png");
+    background-image: url("../img/2.png");
+}
+
+.square {
+    height: 83px;
+    background-color: #000000;
+    opacity: 0.5;
+    position: relative;
+    top: 13px;
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    width: 172px;
+    height: 46px;
+    top: 19px;
+    left: 475px;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.logo:hover{
+    padding-top: 0;
+}
+
+.logo:hover .historical {
+    font-style: normal;
+    letter-spacing: 0.77px;
+    line-height: normal;
+    padding-top: 0;
+}
+
+.logo:hover .gaming {
+    font-style: normal;
+    letter-spacing: 64.41px;
+    line-height: normal;
+}
+
+.historical {
+    /* Style for "Historical" */
+    width: 169px;
+    height: 29px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.36px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+
+
+.gaming {
+    /* Style for "GAMES" */
+    width: 171px;
+    height: 12px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.36px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 5px;
+    /* Text style for "GAMES" */
 }
