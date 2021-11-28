@@ -1,0 +1,115 @@
+.testimonial {
+    background-image: url("../img/3.png");
+    width: 100%;
+    height: 537px;
+    position: relative;
+    text-align: center;
+}
+
+.testimonialHead {
+    padding-top: 85px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}
+
+.testimonialHead:after{
+    clear: both;
+}
+
+.testimonialHeader {
+    /* Style for "Testimonia" */
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: center;
+}
+
+.testimonialHeader:hover {
+    /* Text style for "Testimonia" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.testimonialIcon {
+    margin-top: 90px;
+    margin-bottom: 51px;
+}
+
+.testimonialGliderList {
+    list-style-type: none;
+}
+
+.testimonialGliderListLiCenter {
+    width: 935px;
+}
+
+.testimonialGliderListLi {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+    margin-right: 39px;
+    /* Style for "Donec feug" */
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.testimonialGliderListLi:hover {
+    /* Text style for "D, onec fe" */
+    font-family: "Roboto Condensed - Light";
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+
+.testimonialGliderListLi .arrowBorder{
+    width: 37px;
+    height: 37px;
+    outline: 2px solid #ffffff;
+}
+
+.testimonialGliderListLi .arrow {
+    font-size: 24px;
+    padding-top: 5px;
+}
+
+.testimonialFounder {
+    margin-top: 30px;
+}
+
+.testimonialFounderName {
+    display: inline-block;
+    /* Text style for "JOHN SMITH" */
+    color: #ffffff;
+    font-family: "Roboto - Bold Condensed";
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.testimonialFounderType {
+    display: inline-block;
+    /* Text style for "- FOUNDER" */
+    color: #ffffff;
+    font-family: "Roboto Condensed - Light";
+    font-size: 16px;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+

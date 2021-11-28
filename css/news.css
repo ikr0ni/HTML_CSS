@@ -1,0 +1,170 @@
+.news {
+    position: relative;
+    width: 100%;
+    height: 888px;
+    text-align: center;
+}
+
+.news .newsHeader .headText {
+    text-align: center;
+    padding-top: 97px;
+}
+
+.newsListTop {
+    margin-left: 389px;
+    margin-right: 389px;
+}
+
+.newsListTopUl {
+    list-style-type: none;
+}
+
+.newsListTopUlLi {
+    display: inline-block;
+    width: 40%;
+}
+
+.newsListTopUlLiH {
+    /* Style for "Featured E" */
+    color: #000000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: left;
+
+}
+
+.newsListTopUlLiH:hover {
+    /* Text style for "Featured E" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.newsInfo {
+    margin-top: 32px;
+}
+
+.newsListBottom {
+    list-style-type: none;
+}
+
+.newsListBottomLi {
+    height:  139px;
+    display: block;
+}
+
+.newsInfo {
+    /* Style for "Прямоуголь" */
+
+}
+
+.newsDate {
+    float: left;
+    display: inline-block;
+    width: 98px;
+    height: 139px;
+    border-radius: 49px;
+    border: 1px solid #e8e8e8;
+    background-color: #f7f7f7;
+}
+
+.date {
+    display: block;
+    padding-top: 12px;
+    /* Style for "15" */
+    color: #000000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    /* Text style for "1, 5"
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;*/
+}
+
+.month {
+    display: block;
+    padding-top: 10px;
+    /* Style for "June" */
+    color: #9e9e9e;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    /* Text style for "J, une"
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;*/
+}
+
+.years {
+    display: block;
+    padding-top: 5px;
+    /* Style for "2016" */
+    color: #9e9e9e;
+    font-family: "Poppins - Medium Italic";
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 11px;
+    /* Text style for "2, 016"
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;*/
+}
+
+.newsInfo:hover .date, .month, .years {
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.dateInfo {
+    display: inline-block;
+    float: right;
+    width: 308px;
+}
+
+.newsDateHeaderText {
+    /* Style for "Fugiat Quo" */
+    color: #f44336;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: left;
+    /* Text style for "Fugiat Quo"
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;*/
+}
+
+.newsDateTextText {
+    /* Style for "Quis autem" */
+    width: 308px;
+    height: 35px;
+    color: #9e9e9e;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    /* Text style for "Quis autem"
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;*/
+}

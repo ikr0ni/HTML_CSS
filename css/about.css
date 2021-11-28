@@ -1,0 +1,64 @@
+.about {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.aboutInfo {
+    display: inline-block;
+    width: 398px;
+    margin-left: 475px;
+    margin-top: 95px;
+}
+
+.headText {
+    /* Style for "About Us!" */
+    /*width: 169px;
+    height: 28px;*/
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+
+}
+
+.aboutInfo h1:hover {
+    /* Text style for "About Us!" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.aboutInfo p {
+    margin-top: 35px;
+    /* Style for "Nemo enim" */
+    color: #999999;
+    font-family: "Roboto Condensed";
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.aboutInfo p:hover {
+    /* Text style for "Nemo enim" */
+    font-style: normal;
+    letter-spacing: 0.12px;
+    line-height: normal;
+}
+
+
+.aboutImage {
+    position: absolute;
+    display: inline-block;
+    right: 474px;
+    top: 81px;
+}
+

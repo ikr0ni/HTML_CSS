@@ -21,19 +21,22 @@
     top: 13px;
 }
 
-.logo {
+.logo,
+.mail,
+.tel{
     display: inline-block;
-    position: relative;
-    width: 172px;
-    height: 46px;
-    top: 19px;
-    left: 475px;
-    text-decoration: none;
-    padding-top: 5px;
 }
 
-.logo:hover{
-    padding-top: 0;
+.logo {
+    width: 172px;
+    height: 46px;
+    margin-top: 19px;
+    margin-left: 475px;
+    position: absolute;
+}
+
+.logo a {
+    text-decoration: none;
 }
 
 .logo:hover .historical {
@@ -51,6 +54,7 @@
 
 .historical {
     /* Style for "Historical" */
+    position: relative;
     width: 169px;
     height: 29px;
     color: #ffffff;
@@ -60,14 +64,13 @@
     font-style: normal;
     letter-spacing: normal;
     line-height: 22.36px;
-    text-align: left;
+    text-align: center;
     margin-bottom: 5px;
 }
 
-
-
 .gaming {
     /* Style for "GAMES" */
+    position: relative;
     width: 171px;
     height: 12px;
     color: #ffffff;
@@ -75,10 +78,123 @@
     font-size: 15px;
     font-weight: 500;
     font-style: normal;
-    letter-spacing: normal;
+    letter-spacing: 15px;
     line-height: 22.36px;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     margin-top: 5px;
     /* Text style for "GAMES" */
 }
+
+.tel {
+    margin-top: 28px;
+    margin-left: 802px;
+}
+
+.telText {
+    display: inline-block;
+    vertical-align: super;
+    margin-left: 14px;
+    width: 99px;
+    height: 12px;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.36px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.telText:hover {
+    font-style: normal;
+    letter-spacing: 0.36px;
+    line-height: normal;
+}
+
+.mail{
+    margin-left: 39px;
+}
+
+.mailText {
+    /* Style for "info@examp" */
+    display: inline-block;
+    margin-left: 14px;
+    width: 128px;
+    height: 17px;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.36px;
+    text-align: left;
+    vertical-align: super;
+}
+
+.mailText:hover {
+    font-style: normal;
+    letter-spacing: 0.36px;
+    line-height: normal;
+}
+
+.search {
+    width: 208px;
+    height: 38px;
+    position: absolute;
+    right: 474px;
+    top: 23px;
+    border: white 1px solid;
+}
+
+.inputSearchText,
+.inputSearchText::placeholder{
+    /* Style for "Search" */
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 12px;
+    margin-left: 16px;
+    height: 13px;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.36px;
+    text-align: left;
+    background: transparent;
+    border: none;
+    /* Text style for "Search" */
+}
+
+.inputSearchText:hover {
+    font-style: normal;
+    letter-spacing: 0.36px;
+    line-height: normal;
+}
+
+.inputSearchButton {
+    display: inline-block;
+    border-left: 1px solid #ffffff;
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 50px;
+    height: 38px;
+}
+
+.inputSearchButton input[type="submit"] {
+    background: url("../img/поиск_иконка.png");
+    width: 18px;
+    border: none;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+
